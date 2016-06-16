@@ -4,12 +4,12 @@
 
     <parent>
         <groupId>com.kagurabi</groupId>
-        <artifactId>kagura-bom</artifactId>
+        <artifactId>Kagura-bom</artifactId>
         <version>1.10-SNAPSHOT</version>
     </parent>
 
     <groupId>com.kagurabi.services</groupId>
-    <artifactId>kagura-karaf-bom</artifactId>
+    <artifactId>Kagura-karaf-bom</artifactId>
     <version>1.10-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -45,7 +45,7 @@
             <!-- Kagura -->
             <dependency>
                 <groupId>com.kagurabi.services</groupId>
-                <artifactId>kagura-camel</artifactId>
+                <artifactId>Kagura-camel</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -55,13 +55,13 @@
             </dependency>
             <dependency>
                 <groupId>com.kagurabi.services</groupId>
-                <artifactId>kagura-features</artifactId>
+                <artifactId>Kagura-features</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
             </dependency>
             <dependency>
                 <groupId>com.kagurabi.shared</groupId>
-                <artifactId>kagura-resources</artifactId>
+                <artifactId>Kagura-resources</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
