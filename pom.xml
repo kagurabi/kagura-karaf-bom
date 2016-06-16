@@ -6,13 +6,23 @@
         <groupId>com.kagurabi</groupId>
         <artifactId>kagura</artifactId>
         <version>1.10-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <groupId>com.kagurabi.services</groupId>
-    <artifactId>kagura-services</artifactId>
+    <artifactId>kagura-karaf-bom</artifactId>
     <version>1.10-SNAPSHOT</version>
     <packaging>pom</packaging>
+
+    <repositories>
+        <repository>
+            <id>ossrh-snapshots</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </repository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </repositories>
 
     <properties>
         <karaf.version>2.3.1</karaf.version>
