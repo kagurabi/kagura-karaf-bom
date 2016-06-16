@@ -409,13 +409,6 @@
         </dependencies>
     </dependencyManagement>
 
-    <modules>
-        <module>kagura-camel</module>
-        <module>kagura-features</module>
-        <module>kagura-assembly</module>
-        <module>example-authrest</module>
-    </modules>
-
     <profiles>
         <!-- PGP singing profile for releases -->
         <profile>
